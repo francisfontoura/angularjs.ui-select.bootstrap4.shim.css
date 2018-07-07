@@ -1,0 +1,58 @@
+/**
+ * ui-select.bootstrap4.shim.css
+ *
+ * Adapt `bootstrap` (v3) theme from AngularJS `ui-select`
+ * component to Bootstrap v4.x look and feel.
+ * Bootstrap v4.x look and feel
+ *
+ * Feel free to test and open issues and pull requests.
+ *
+ * @see       https://angular-ui.github.io/ui-select/
+ *
+ * @project   ui-select.bootstrap4.shim.css
+ * @version   1-20180706
+ * @author    Francis Vagner dos Anjos Fontoura
+ * @copyright 2018 by the author
+ * @cssdoc    version 1.0-pre
+ * @license   MIT
+ */
+
+.pull-left {
+    float: left !important;
+}
+
+.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    margin-left: 0;
+    vertical-align: middle;
+    width: 0;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.ui-select-toggle.btn {
+    border: 1px solid #ced4da;
+}
+
+.ui-select-choices.dropdown-menu {
+    display: block;
+}
+
+.ui-select-match-text {
+    max-height: 24px;
+}
+
+.ui-select-match.btn-default-focus {
+    border-radius: .25rem;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    outline: 0;
+}
+
+.ui-select-match.btn-default-focus > .ui-select-toggle {
+    border-color: #80bdff;
+}
